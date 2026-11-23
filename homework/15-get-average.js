@@ -5,7 +5,12 @@
 // - Empty array: return 0.
 
 function getAverage(numbers) {
-  // your code
+  if( numbers.length === 0) return 0;
+  let average=0;
+  for( const num of numbers){
+    average += num;
+  }
+  return average / numbers.length;
 }
 
 // Expected output:

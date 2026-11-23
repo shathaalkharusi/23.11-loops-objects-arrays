@@ -5,7 +5,14 @@
 // - No adults: return [].
 
 function getAdultNames(users) {
-  // your code
+  const names = [];
+  for( const u of users){
+    if(u.age>17){
+    names.push(u.name);
+    }
+    
+}
+  return names;
 }
 
 const users = [

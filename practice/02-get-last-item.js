@@ -5,8 +5,13 @@
 // - Empty array: return null.
 
 function getLastItem(items) {
-  // your code
+  return items.pop() || null;
 }
+
+/*if(items.length === 0) return null;
+   return items[items.length - 1];
+
+}*/
 
 // Expected output:
 console.log(getLastItem(["a", "b", "c"]));  // "c"

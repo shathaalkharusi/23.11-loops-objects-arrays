@@ -5,7 +5,16 @@
 // - Empty array: return null.
 
 function getMin(numbers) {
-  // your code
+  if(numbers.length === 0) return null;
+
+  let smallest= numbers[0];
+  for(let i= 0; i < numbers.length; i++){
+    if(numbers[i] < smallest){
+      smallest= numbers[i];
+
+    }
+  }
+  return smallest;
 }
 
 // Expected output:

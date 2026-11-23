@@ -6,7 +6,13 @@
 // - Nothing matches: return [].
 
 function getExpensiveNames(products, limit) {
-  // your code
+  let names= [];
+  for( const p of products){
+    if(p.price > limit){
+      names.push(p.name)
+    }
+  }
+  return names;
 }
 
 const products = [

@@ -5,8 +5,15 @@
 // - Empty array: return 0.
 
 function sumArray(numbers) {
-  // your code
+  let sum =0;
+
+  for (const num of numbers) {
+    sum = sum + num;
+  }
+
+  return sum;
 }
+
 
 // Expected output:
 console.log(sumArray([1, 2, 3]));    // 6

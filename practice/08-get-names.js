@@ -6,8 +6,15 @@
 // - Empty array: return [].
 
 function getNames(users) {
-  // your code
+  const names = [];
+  for( const u of users){
+    names.push(u.name);
+    
 }
+  return names;
+}
+  
+
 
 const users = [
   { name: "Ann", age: 25, city: "Muscat" },

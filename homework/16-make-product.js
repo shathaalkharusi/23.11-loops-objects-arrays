@@ -5,7 +5,14 @@
 // - total is price * qty.
 
 function makeProduct(name, price, qty) {
-  // your code
+  let total= price * qty;
+  return{
+    name: name,
+    price: price,
+    qty: qty,
+    total: total
+  };
+ 
 }
 
 // Expected output:

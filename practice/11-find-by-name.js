@@ -6,7 +6,8 @@
 // - Stop the loop as soon as you find the user.
 
 function findByName(users, name) {
-  // your code
+  return users.find(u => u.name === name) || null;
+  
 }
 
 const users = [

@@ -5,7 +5,7 @@
 // - Return text like "Muscat: 31°C". Use a template literal.
 
 function describeCity(city) {
-  // your code
+  return `${city.name} : ${city.temperature}C`;
 }
 
 // Expected output:
