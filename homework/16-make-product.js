@@ -7,10 +7,10 @@
 function makeProduct(name, price, qty) {
   let total= price * qty;
   return{
-    name: name,
-    price: price,
-    qty: qty,
-    total: total
+    name,
+    price,
+    qty ,
+    total
   };
  
 }

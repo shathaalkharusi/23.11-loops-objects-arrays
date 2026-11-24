@@ -8,9 +8,9 @@ function getMin(numbers) {
   if(numbers.length === 0) return null;
 
   let smallest= numbers[0];
-  for(let i= 0; i < numbers.length; i++){
-    if(numbers[i] < smallest){
-      smallest= numbers[i];
+  for(const num of numbers){
+    if(num < smallest){
+      smallest= num;
 
     }
   }
